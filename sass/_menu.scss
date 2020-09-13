@@ -1,0 +1,34 @@
+.menu{
+    .border-bg{
+        border: 2px solid $color-gris;
+        background-color: rgba($color-hover, $alpha: 0.1);
+        font-weight: bold;
+        border-radius: 0.4rem;
+        &:hover{
+            background-color: $color-azul;
+        }
+    }
+
+    .card{
+        .text-color{
+            color: $color-negro;
+        }
+        .bg-hover{
+            background-color: rgba($color-hover, $alpha: 0.1);
+        }
+        .card-body{
+            .form-circle{
+                width: 3.125rem;
+                height: 3.125rem;
+                border-radius: 50%;
+                
+            }
+            a{
+                color: $color-azul !important;
+                &:hover{
+                    cursor: default;
+                }
+            }
+        }
+    }
+}

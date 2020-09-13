@@ -1,0 +1,52 @@
+.usuarios{
+    .texto-top{
+        color: $color-negro !important;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .contenedor-texto{
+        .texto-configuracion{
+            margin-right: 3rem;
+        }
+        .texto-status{
+            margin-right: 6.5rem !important;
+        }
+    }
+
+    .btn-border{
+        border: 2px solid $color-gris;
+        background-color: rgba($color-hover, $alpha: 0.1);
+        font-weight: bold;
+        border-radius: 0.4rem;
+        &:hover{
+            background-color: $color-azul;
+        }
+    }
+
+    .contenedor{
+        .bg-editar{
+            background: $color-gris;
+            border-radius: 0.4rem;
+            &:hover{
+                background:  #8a8a8a;
+            }
+            a{
+                display: inline-block;
+                color: $color-negro !important;
+                padding: 0.375rem 0.6rem;
+                text-align: center;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+                i{
+                    padding: 0.5rem;
+                }
+            }
+        }
+        .bg-buttom{
+            margin-right: 3.99rem;
+        }
+    }
+    
+}

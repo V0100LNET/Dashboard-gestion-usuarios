@@ -1,0 +1,112 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #eceff1;
+}
+
+header {
+  width: 18rem;
+  min-height: 100vh;
+  background-color: #fff;
+}
+header a {
+  color: #211E1E;
+  display: inline-block;
+  padding: 5px;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding-top: 1.5625rem;
+}
+header a .icon {
+  margin-right: 0.625rem;
+}
+header a:hover {
+  text-decoration: none;
+  color: #0aa0d1;
+}
+header nav > h2 {
+  color: black;
+}
+
+.menu .border-bg {
+  border: 2px solid #eceff1;
+  background-color: rgba(10, 160, 209, 0.1);
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+.menu .border-bg:hover {
+  background-color: #007bff;
+}
+.menu .card .text-color {
+  color: #211E1E;
+}
+.menu .card .bg-hover {
+  background-color: rgba(10, 160, 209, 0.1);
+}
+.menu .card .card-body .form-circle {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+}
+.menu .card .card-body a {
+  color: #007bff !important;
+}
+.menu .card .card-body a:hover {
+  cursor: default;
+}
+
+.usuarios .texto-top {
+  color: #211E1E !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.usuarios .contenedor-texto .texto-configuracion {
+  margin-right: 3rem;
+}
+.usuarios .contenedor-texto .texto-status {
+  margin-right: 6.5rem !important;
+}
+.usuarios .btn-border {
+  border: 2px solid #eceff1;
+  background-color: rgba(10, 160, 209, 0.1);
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+.usuarios .btn-border:hover {
+  background-color: #007bff;
+}
+.usuarios .contenedor .bg-editar {
+  background: #eceff1;
+  border-radius: 0.4rem;
+}
+.usuarios .contenedor .bg-editar:hover {
+  background: #8a8a8a;
+}
+.usuarios .contenedor .bg-editar a {
+  display: inline-block;
+  color: #211E1E !important;
+  padding: 0.375rem 0.6rem;
+  text-align: center;
+}
+.usuarios .contenedor .bg-editar a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.usuarios .contenedor .bg-editar a i {
+  padding: 0.5rem;
+}
+.usuarios .contenedor .bg-buttom {
+  margin-right: 3.99rem;
+}
+
+.mensajes .texto-mensajes .texto h3 {
+  font-size: 1.2rem;
+}
+.mensajes .texto-mensajes .texto .texto-mensaje {
+  font-size: 0.8rem;
+}
+.mensajes .texto-mensajes .texto .hola {
+  margin-top: -2.1rem;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

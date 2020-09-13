@@ -1,0 +1,28 @@
+header{
+    width: 18rem;
+    min-height: 100vh;
+    background-color: $color-blanco;
+    a{
+        color: $color-negro;
+        display: inline-block;
+        padding: 5px;
+        display: inline-block;
+        font-size: 1.25rem;
+        padding-top: 1.5625rem;
+        .icon{
+            margin-right: 0.625rem;
+        }
+        &:hover{
+            text-decoration: none;
+            color: $color-hover;
+        }
+        
+    }
+    nav > h2{
+        color: black;
+        
+    } 
+}
+
+
+

@@ -1,0 +1,17 @@
+$color-azul: #007bff;
+$color-blanco: #fff;
+$color-gris: #eceff1;
+$color-negro: #211E1E;
+$color-hover: rgb(10, 160, 209);
+
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: $color-gris;
+   
+}
+
+@import 'header';
+@import 'menu';
+@import 'usuarios';
+@import 'mensajes';

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="short icon" href="./img/shor-icon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>Productividad</title>
+</head>
+<body>
+    
+    <div class="d-flex">
+        <header>
+            <div class="menu-contenedor">
+                <nav class="d-flex flex-column py-3 p-3 text-white">
+                    <h2 class="font-weight-bold">Valnet</h2>
+                    <a href="#"><i class="icon ion-md-apps"></i>Tablero</a>
+                    <a href="#"><i class="icon ion-md-contacts"></i>Usuarios</a>
+                    <a href="#"><i class="icon ion-md-stats"></i>Estadísticas</a>
+                    <a href="#"><i class="icon ion-md-calendar"></i>Eventos</a>
+                    <a href="#"><i class="icon ion-md-person"></i>Perfil</a>
+                    <a href="#"><i class="icon ion-md-settings"></i>Configuración</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="w-100 menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">                
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <form class="form-inline my-2 my-lg-0 w-100">
+                        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="btn btn-outline-primary my-2 my-sm-0 border-bg" type="submit">Mostrar/esconder menu</button>
+                    </form>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active align-self-center">
+                                <a class="nav-link text-muted" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            </li>    
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img class="img-fluid rounded-circle r-2" src="./img/Oswaldo.jpg" alt="Oswaldo Hernandez Facebook" width="38" height="38">
+                                    Oswaldo Hernández
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Ver mi Perfil</a>
+                                    <a class="dropdown-item" href="#">Mi Suscripción</a>
+                                    <a class="dropdown-item" href="#">Mensajes Directos</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                                </div>
+                            </li>   
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--main-->
+            <section class="main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-xl-3 my-3">
+                            <div class="card">
+                                <div class="card-body bg-white text-white d-flex justify-content-around">
+                                    <div class="bg-hover card-imagen d-flex form-circle align-self-center">
+                                        <a class="text-white p-3 align-self-center" href="#"><i class="icon ion-md-trending-up"></i></a>
+                                    </div>
+                                    <div class="card-texto">
+                                        <h3 class="card-title mb-0 text-color font-weight-bold">$3200.00</h3>
+                                        <p class="card-text text-center text-align-center text-muted">Ventas Totales</p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6 col-xl-3 my-3">
+                            <div class="card">
+                                <div class="card-body bg-white text-white d-flex justify-content-around">
+                                    <div class="bg-hover card-imagen d-flex form-circle align-self-center">
+                                        <a class="text-white p-3" href="#"><i class="icon ion-md-stats"></i></a>
+                                    </div>
+                                    <div class="card-texto">
+                                        <h3 class="card-title mb-0 text-color font-weight-bold">$3200.00</h3>
+                                        <p class="card-text text-center text-align-center text-muted">Visitas al Sitio</p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6 col-xl-3 my-3">
+                            <div class="card">
+                                <div class="card-body bg-white text-white d-flex justify-content-around">
+                                    <div class="bg-hover card-imagen d-flex form-circle align-self-center">
+                                        <a class="text-white p-3 align-self-center" href="#"><i class="icon ion-md-contacts"></i></a>
+                                    </div>
+                                    <div class="card-texto">
+                                        <h3 class="card-title mb-0 text-color font-weight-bold">$3200.00</h3>
+                                        <p class="card-text text-center text-align-center text-muted">Usuarios Nuevos</p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6 col-xl-3 my-3">
+                            <div class="card">
+                                <div class="card-body bg-white text-white d-flex justify-content-around">
+                                    <div class="bg-hover card-imagen d-flex form-circle align-self-center">
+                                        <a class="text-white p-3 align-self-center" href="#"><i class="icon ion-md-cash"></i></a>
+                                    </div>
+                                    <div class="card-texto">
+                                        <h3 class="card-title mb-0 text-color font-weight-bold">$3200.00</h3>
+                                        <p class="card-text text-center text-align-center text-muted">Ingresos</p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--usarios-->
+            <section class="w-100 usuarios">
+                <div class="container">
+                    <div class="row">
+                        <!--usuarios-->
+                        <div class="col-xs-12 col-xl-7 col-sm-12 my-5">
+                            <div class="row">
+                                <div class="col-xl-8">
+                                    <div class="contenedor-texto">
+                                        <h4 class="ml-3 texto-top">Usuarios</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="contenedor-texto d-flex justify-content-end">
+                                        <h4 class="texto-status texto-top">Estatus</h4>
+                                        <h4 class="texto-configuracion texto-top">Configuración</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-2 contenedor">
+                                <!--align-self-center | centrar horizontalmente-->
+                                <!--align-items-center | centrar verticalemente-->
+                                <div class="contenedor-usuarios card-body bg-white text-white d-flex justify-content-around border-bottom align-items-center">
+                                    <div class="card-imagen form-circle d-inline-block image">
+                                        <img class="" src="./img/man.svg" alt="Inicio sesion Daniel">
+                                    </div>
+                                    <div class="card-texto texto">
+                                        <h3 class="right card-title mb-0 text-color font-weight-bold">Daniel</h3>
+                                        <p class="right card-text text-center text-align-center text-muted">Daniel@valnet.com</p>
+                                    </div>
+                                    <!--boton activo-->
+                                    <div class="bg-buttom">
+                                        <button class="btn btn-outline-primary btn-border derecha" type="submit">Activo</button>
+                                    </div>   
+                                    <!--editar-->                             
+                                    <div class="bg-editar">
+                                        <a href="#" class="font-weight-bold">Editar<i class="icon ion-md-settings"></i></a>
+                                    </div>                                
+                                </div>
+                            </div>
+
+                            <div class="card mb-2 contenedor">
+                                <!--align-self-center | centrar horizontalmente-->
+                                <!--align-items-center | centrar verticalemente-->
+                                <div class="contenedor-usuarios card-body bg-white text-white d-flex justify-content-around border-bottom align-items-center">
+                                    <div class="card-imagen form-circle d-inline-block image">
+                                        <img class="" src="./img/woman.svg" alt="Inicio sesion Daniel">
+                                    </div>
+                                    <div class="card-texto texto">
+                                        <h3 class="right card-title mb-0 text-color font-weight-bold">Paloma</h3>
+                                        <p class="right card-text text-center text-align-center text-muted">Paloma@valnet.com</p>
+                                    </div>
+                                    <!--boton activo-->
+                                    <div class="bg-buttom">
+                                        <button class="btn btn-outline-primary btn-border derecha" type="submit">Activo</button>
+                                    </div>                                
+                                    <div class="bg-editar">
+                                        <a href="#" class="font-weight-bold">Editar<i class="icon ion-md-settings"></i></a>
+                                    </div>                                
+                                </div>
+                            </div>
+
+                            <div class="card mb-2 contenedor">
+                                <!--align-self-center | centrar horizontalmente-->
+                                <!--align-items-center | centrar verticalemente-->
+                                <div class="contenedor-usuarios card-body bg-white text-white d-flex justify-content-around border-bottom align-items-center">
+                                    <div class="card-imagen form-circle d-inline-block image">
+                                        <img class="" src="./img/woman-old.svg" alt="Inicio sesion Daniel">
+                                    </div>
+                                    <div class="card-texto texto">
+                                        <h3 class="right card-title mb-0 text-color font-weight-bold">Vianey</h3>
+                                        <p class="right card-text text-center text-align-center text-muted">Vianey@valnet.com</p>
+                                    </div>
+                                    <!--boton activo-->
+                                    <div class="bg-buttom">
+                                        <button class="btn btn-outline-primary btn-border derecha" type="submit">Activo</button>
+                                    </div>                                
+                                    <div class="bg-editar">
+                                        <a href="#" class="font-weight-bold">Editar<i class="icon ion-md-settings"></i></a>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--mensajes-->
+                        <div class="col-xs-12 col-xl-5 col-sm-12 my-5 mensajes">
+                            <div class="card contenedor">
+                                <div class="card-header border-0 bg-white font-weight-bold">Mensajes</div>
+                                <!--align-self-center | centrar horizontalmente-->
+                                <!--align-items-center | centrar verticalemente-->
+                                <div class="contenedor-usuarios card-body bg-white text-white d-flex justify-content-end align-items-center">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-xl-2 col-sm-2">
+                                            <div class="card-imagen form-circle mr-3">
+                                                <img class="img-fluid" src="./img/person-message.svg" alt="Inicio sesion Daniel">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-xl-10 col-sm-12 texto-mensajes">
+                                            <div class=" card-texto texto overflow-hidden">
+                                                <h3 class="card-title text-color font-weight-bold">Crhistian Palacios</h3>
+                                                <p class="float-right hola text-muted font-weight-bold">Hace dos horas</p>
+                                                <p class="d-inline-block texto-mensaje card-text text-muted">Hola, la junta de hoy es a las 10 en la oficina 2</p>
+                                            </div> 
+                                        </div>
+                                    </div>                           
+                                </div>
+
+                                <div class="card contenedor">
+                                    <!--align-self-center | centrar horizontalmente-->
+                                    <!--align-items-center | centrar verticalemente-->
+                                    <div class="contenedor-usuarios card-body bg-white text-white d-flex justify-content-end align-items-center">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-xl-2 col-sm-2">
+                                                <div class="card-imagen form-circle mr-3">
+                                                    <img class="img-fluid" src="./img/woman.svg" alt="Inicio sesion Daniel">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-xl-10 col-sm-12 texto-mensajes">
+                                                <div class=" card-texto texto overflow-hidden">
+                                                    <h3 class="card-title text-color font-weight-bold">Paloma Vargas</h3>
+                                                    <p class="float-right hola text-muted font-weight-bold">Hace 15 seg</p>
+                                                    <p class="d-inline-block texto-mensaje card-text text-muted">Me puedes mandar la cotización de la aplicación</p>
+                                                </div> 
+                                            </div>
+                                        </div>                           
+                                    </div>   
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-xl-12 col-sm-12">
+                                                <div class="card-texto ver-mensajes os">
+                                                    <a class=" os font-weight-bold" href="#">Ver todos los mensajes</a>
+                                                </div> 
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div>
+        
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bcf8e85cd0.js" crossorigin="anonymous"></script>
+</body>
+</html>
